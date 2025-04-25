@@ -12,18 +12,24 @@
 </head>
 <body>
   <main>
-    <div class="box">
-        <header>
+     <section class="box"> <!-- A section helps with search engine optimization, structure, and accessability.
+                                1. Means when you use section there is a higher chance that your site might show up while seaching
+                                2. tells browser, search engines ... this is the meaningful part of the page
+                                3. groups related elements  -->
+
+            <header>
                 <h1>🎥 Movie Time ⏳</h1>
                 <h3>Studio Ghibli's another Masterpiece</h3>
                 <h2>🥤🍿 Watch and Enjoy Every Second 🎉🎊</h2>
-        </header>
+            </header>
+
             <video src="https://raw.githubusercontent.com/zahrahussainzada/CSS-First-Assignment/refs/heads/main/Movie.mp4" width="450px" height="230px" controls>
             Kiki's Delivery Service
             </video>
-        <div class="tag">
-        <label for="star5">Rate the Movie:</label>
-        <div class="rate">
+        <section class="tag">
+            <label for="star5">Rate the Movie:</label>
+        <div class="rate"><!-- 1. Doesn't have a meaning for browser except saying this is a box
+                               2. No semantic meaning means doesn't mean anything special for search engines  -->
           <input type="radio" name="star" id="star5" value="5" />
           <label for="star5">⭑</label>
           <input type="radio" name="star" id="star4" value="4" />
@@ -35,8 +41,8 @@
           <input type="radio" name="star" id="star1" value="1" />
           <label for="star1">⭑</label>
         </div>
-    </div>
-</div>
+    </section>
+</section>
 </main>
 
 <footer>
